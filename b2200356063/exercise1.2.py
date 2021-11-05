@@ -1,6 +1,8 @@
+def is_it_email():
+	a = "@" and "." in mail
+	if a==True:
+		return True
+	else:
+		return False
 mail = input("please input your mail adress")
-a = "@" and "." in mail
-if a==True:
-	print("it is a real mail adress")
-else:
-	print("it is not a real mail adress")
+print(is_it_email())
